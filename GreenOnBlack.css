@@ -1,0 +1,48 @@
+/**************************************************************
+[+] GreenOnBlack - Cascading Style Sheet [+]
+* External CSS file.
+* Designed to resemble the aesthetics of GreenOnBlack profiles
+* from terminal emulators.
+* Hopefully good for both desktop & mobile displays/browsers.
+[Author] brianc2788@gmail.com
+[Github] http://github.com/user5260/user5260
+**************************************************************/
+h1,h2,h3,h4,h5,h6 {
+	color: whitesmoke;
+	font-family: serif;
+	text-align: center;
+	text-decoration: underline; /* And/or overline, line-through. */
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif; /* Desired font with fallbacks; including a generic. */
+	font-size: 16px; /* See CSS Units (Absolute & Relative) for details. */
+	font-style: normal; /* italic, oblique, oblique <angle>, ... */
+	font-variant: normal; /* small-caps, slashed-zero, tabular-nums, ... */
+	font-weight: normal; /* Can specify values; normal = 400, bold = 900 */
+
+	color: #A0FFA0; /* lightgreen */
+	background-color: #000000; /* black */
+	
+	margin-left: 30vw;
+	margin-right: 30vw;
+}
+
+/* Like default <code> tagged-text. */
+blockquote.psuedo-code {
+	font-family: monospace;
+	font-variant: slashed-zero;
+}
+
+/* Ad-hoc Footer */
+p.copyleft {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+/* Don't use lol */
+img.leftpadding {
+	padding-left: 300px;
+}
