@@ -3,7 +3,7 @@
 * External CSS file.
 * Designed to resemble the aesthetics of GreenOnBlack profiles
 * from terminal emulators.
-* Hopefully good for both desktop & mobile displays/browsers.
+* Bad for mobile.
 [Author] brianc2788@gmail.com
 [Github] http://github.com/user5260/user5260
 **************************************************************/
@@ -34,8 +34,8 @@ blockquote.psuedo-code {
 	font-variant: slashed-zero;
 }
 
-/* Ad-hoc Footer */
-p.copyleft {
+/* Copyright Footer */
+.copyleft {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 10px;
 	font-style: italic;
