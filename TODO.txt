@@ -1,0 +1,3 @@
+- Stylize more.
+- SEO (meta tags,origin/og,etc)
+- Temp. page - zoom in (try not to increase font-size attributes)
