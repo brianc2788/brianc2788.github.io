@@ -1,4 +1,4 @@
-# user5260.github.io
+# brianc2788.github.io
 
 ## MAIN TODO LIST ##
 - Stylize more.
@@ -8,3 +8,4 @@
 
 ## NOTES ##
 - Article Ideas: Programming/scripting, linux (shell, grep, core utils, etc.), networking, etc.
+- Virtual AGC (Apollo Guidance Computer) Project
