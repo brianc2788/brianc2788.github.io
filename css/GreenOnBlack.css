@@ -28,10 +28,23 @@ body {
 	margin-right: 30vw;
 }
 
-/* Like default <code> tagged-text. */
+p.post-caption {
+	text-align: center;
+	font-style: italic;
+}
+
 blockquote.psuedo-code {
+	/* Like default <code> tagged-text. */
 	font-family: monospace;
 	font-variant: slashed-zero;
+}
+
+/***** div block containers *****/
+
+.post {
+	border: solid;
+	border-width: 1px;
+	padding: 10px;
 }
 
 /* Copyright Footer */
@@ -40,9 +53,4 @@ blockquote.psuedo-code {
 	font-size: 10px;
 	font-style: italic;
 	text-align: center;
-}
-
-/* Don't use lol */
-img.leftpadding {
-	padding-left: 300px;
 }
