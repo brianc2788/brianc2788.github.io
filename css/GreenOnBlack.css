@@ -10,8 +10,10 @@
 h1,h2,h3,h4,h5,h6 {
 	color: whitesmoke;
 	font-family: serif;
+	/* Commenting these out for now, temporarily, in favor of inline css & markup.
 	text-align: center;
-	text-decoration: underline; /* And/or overline, line-through. */
+	text-decoration: underline; //overline maybe?
+	*/
 }
 
 body {
