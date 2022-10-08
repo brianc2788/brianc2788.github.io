@@ -9,11 +9,15 @@
 **************************************************************/
 h1,h2,h3,h4,h5,h6 {
 	color: whitesmoke;
-	font-family: serif;
+	font-family: 'Times New Roman', Times, serif;
 	/* Commenting these out for now, temporarily, in favor of inline css & markup.
 	text-align: center;
 	text-decoration: underline; //overline maybe?
 	*/
+}
+
+h2 {
+	font-weight: bold; /* Or value of 900. */
 }
 
 body {
