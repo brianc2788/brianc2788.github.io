@@ -48,6 +48,8 @@ blockquote.psuedo-code {
 /***** div block containers *****/
 
 .post {
+	font-weight:normal;
+
 	border: solid;
 	border-width: 1px;
 	padding: 10px;
