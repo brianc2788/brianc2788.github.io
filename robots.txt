@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /priv
+
+#Sitemap: https://example.com/sitemap.xml
+
+# Social media crawlers
+#User-agent: Twitterbot
+#User-agent: facebookexternalhit
