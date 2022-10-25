@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /priv
+Disallow: /unused
 
 #Sitemap: https://example.com/sitemap.xml
 
