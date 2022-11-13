@@ -3,17 +3,12 @@
 * External CSS file.
 * Designed to resemble the aesthetics of GreenOnBlack profiles
 * from terminal emulators.
-* Bad for mobile.
 [Author] brianc2788@gmail.com
 [Github] http://github.com/user5260/user5260
 **************************************************************/
 h1,h2,h3,h4,h5,h6 {
 	color: whitesmoke;
 	font-family: 'Times New Roman', Times, serif;
-	/* Commenting these out for now, temporarily, in favor of inline css & markup.
-	text-align: center;
-	text-decoration: underline; //overline maybe?
-	*/
 }
 
 h2 {
@@ -21,11 +16,11 @@ h2 {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif; /* Desired font with fallbacks; including a generic. */
-	font-size: 16px; /* See CSS Units (Absolute & Relative) for details. */
-	font-style: normal; /* italic, oblique, oblique <angle>, ... */
-	font-variant: normal; /* small-caps, slashed-zero, tabular-nums, ... */
-	font-weight: normal; /* Can specify values; normal = 400, bold = 900 */
+	font-family: Arial, Helvetica, sans-serif;	/* Desired font with fallbacks; including a generic. */
+	font-size: 16px;							/* See CSS Units (Absolute & Relative) for details. */
+	font-style: normal;							/* italic, oblique, oblique <angle>, ... */
+	font-variant: normal;						/* small-caps, slashed-zero, tabular-nums, ... */
+	font-weight: normal;						/* Can specify values; normal = 400, bold = 900 */
 
 	color: #A0FFA0; /* lightgreen */
 	background-color: #000000; /* black */
@@ -45,9 +40,12 @@ blockquote.psuedo-code {
 	font-variant: slashed-zero;
 }
 
-/***** div block containers *****/
+/************************
+* Dividers & Containers *
+************************/
 
-.post {
+/* Boxed container for text-based content. */
+.boxpost {
 	font-weight:normal;
 
 	border: solid;
