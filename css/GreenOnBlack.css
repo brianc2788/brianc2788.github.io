@@ -3,17 +3,9 @@
 * External CSS file.
 * Designed to resemble the aesthetics of GreenOnBlack profiles
 * from terminal emulators.
-[Author] brianc2788@gmail.com
-[Github] http://github.com/user5260/user5260
+[Author]	brianc2788@gmail.com
+[Homepage]	http://brianc2788.github.io/
 **************************************************************/
-h1,h2,h3,h4,h5,h6 {
-	color: whitesmoke;
-	font-family: 'Times New Roman', Times, serif;
-}
-
-h2 {
-	font-weight: bold; /* Or value of 900. */
-}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;	/* Desired font with fallbacks; including a generic. */
@@ -29,6 +21,21 @@ body {
 	margin-right: 30vw;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+	font-weight: bold; /* Or value of 900. */
+}
+
+caption {
+	caption-side: bottom;
+	font-style: italic;
+	text-align: left;
+}
+
 p.post-caption {
 	text-align: center;
 	font-style: italic;
@@ -38,6 +45,14 @@ blockquote.psuedo-code {
 	/* Like default <code> tagged-text. */
 	font-family: monospace;
 	font-variant: slashed-zero;
+}
+
+table {
+	width: 100%;
+	border: solid #FF0000 5px;
+}
+th, td {
+	border: solid #FF0000 1px;
 }
 
 /************************
