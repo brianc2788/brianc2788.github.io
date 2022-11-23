@@ -52,7 +52,7 @@
                 </tr>
                 <tr>
                     <td>Python3</td>
-                    <td>Python 3.x.x scripts, modules</td>
+                    <td>Python 3.x.x scripts, modules (mini projects, demos)</td>
                     <td><a href="http://www.github.com/brianc2788/pydev">pydev</a></td>
                 </tr>
                 <tr>
@@ -88,11 +88,14 @@
 
                 <caption style="font-size: 10px">
                     <u>Disclaimer:</u><br>
-                    Project dirs contain plaintext source code and binaries built for the x86-64/amd64 ISA.
+                    Due to the smaller size of my projects, repositories have been organized by programming
+                    language and contain directories for other projects and their resources within. Due to
+                    the contrast with traditional Git repositories, I am issuing this disclaimer. Project
+                    directories may contain plaintext source code and/or binaries built for the x86/x64/ARM ISAs.
                     Most are ELF with the exception of many C/Cpp projects, of which contain PE formatted
                     executables compiled with MSVC or MinGW. A few contain binaries for ARM; either 32-bit
                     (armv7l) or 64-bit (armv8+).  Some with portability &AMP; sharing in mind, some not.
-                    All are licensed under the Apache v2 OSS license and are distributed freely as-is.
+                    All are licensed under the Apache v2 OSS license and are distributed as-is.
                 </caption>
             </table>
         </div>
@@ -100,44 +103,102 @@
         <hr>
 
         <div class="boxpost">
-            <h1>Stuff That Influences My Projects...</h1>
+            <h1 style="margin-bottom:0px">Stuff That Influences My Projects...</h1>
+            <p style="font-size:10px; font-style:italic; margin-top:0px">
+                Under construction. Please bear with me as items are added, moved, removed, edited, ...<br>
+                Thank you for you patience &AMP; understanding!
+            </p>
 
-            <h2>Systems &AMP; Administration</h2>
+            <h2>Unix Systems</h2>
             <ul>
-                <li>Linux, BSD, NT Administration</li>
-                <li>Binary Analysis/Software Reverse Eng. (ELF &AMP; PE Formats, malware)</li>
-                <li>Unix Filesystem Hierarchy Structure</li>
-                <li>Package Management - Linux (dpkg, apt, rpm, ...), BSD (pkg)</li>
-                <li>Kernel Management - Loading/Unloading, Runtime Parameters, Modules (LKM), ...</li>
-                <li>Linux Firewall (iptables), FreeBSD PF</li>
-                <li>Windows Terminal, Powershell, WSL, NuGet, Command Prompt (cmd.exe)</li>
-                <li>Windows Registry, Filesystem (NTFS, FAT), </li>
-                <li>Disk Imaging, Forensic Analysis</li>
+                <li>Boot processes, boot loaders (GRUB, UEFI)</li>
+                <li>Disk partitioning, formatting</li>
+                    <ul>
+                        <li>ext4, btrfs, zfs</li>
+                        <li>dd, fsck, gparted (GNOME part. editor)</li>
+                    </ul>
+                <li>Systemd Management</li>
+                <li>System logging/journaling systems</li>
+                <li>Linux Kernel, loadable kernel mods</li>
+                <li>PAM (Pluggable Authentication Modules)</li>
+                <li>Package Management (dpkg, apt, aptitude, pacman, pkg, rpm)</li>
+                    <ul>
+                        <li>dpkg, apt, aptitude, pacman, pkg, rpm</li>
+                        <li>Package repositories</li>
+                    </ul>
+                <li>Unix, BSD Sockets. Inter-Process Communication</li>
+                <li>Linux Device Drivers</li>
+                <li>Packet Filters, Firewalls</li>
+                    <ul>
+                        <li>iptables, pf, pfSense</li>
+                        <li>IDS, monitoring (snort, nagios)</li>
+                    </ul>
+                <li><b>F</b>ilesystem <b>H</b>ierarchy <b>S</b>tandard</li>
+                <li>Desktop environments, display/windowing systems</li>
             </ul>
 
             <h2>Networking</h2>
             <ul>
-                <li>TCP/IP (Internet Protocol Suite), IPsec</li>
-                <li>OSI 7-Layer Networking Model (abstract)</li>
-                <li><strong>IEEE 802.11 WLAN</strong> (personal, some enterprise) - Design, Monitoring, Security</li>
-                <li>Bluetooth - 802.15, PANs</li>
-                <li>Packet Capture &AMP; Analysis ()</li>
-                <li>IPS Support Protocols (ARP, ICMP, DNS)</li>
+                <li>TCP/IP (Internet Protocol Suite), TCP/UDP transport, IP/IPsec</li>
+                <li>IPS Support Protocols</li>
+                    <ul>
+                        <li>ARP, ICMP, SNMP</li>
+                        <li>Namespaces</li>
+                        <li><b>D</b>omain <b>N</b>ame <b>S</b>ystem</li>
+                            <ul>
+                                <li>Tools - dig, whois, nslookup, etc.</li>
+                                <li>Record types (SOA, A, AAAA, MX, NS, CNAME)</li>
+                                <li>DNSec, vulns &AMP; best practices</li>
+                                <li>Open resolvers</li>
+                            </ul>
+                        <li>IGMP, SMTP, IMAP</li>
+                    </ul>
+                <li>SSL/TLSv1 (OpenSSL tools &AMP; utils, x509 Certs, CA, requests, etc.)</li>
+                <li>OSI 7-Layer Networking Model</li>
+                <li>IEEE 802.11 WLAN - Design, Security (RSNA, Pre-RSNA)</li>
                 <li>VOIP (SIP, AIX, IPX)</li>
-                <li>Active Directory (WinServ, LDAP, Auth)</li>
+                <li>Pentesting</li>
+                    <ul>
+                        <li>Packet Capture &AMP; Analysis</li>
+                            <ul>
+                                <li>Active &AMP; passive capture for both wired and wireless networks.</li>
+                                <li>Wireshark, tshark proficiency</li>
+                                <li>Aircrack-ng Suite (airodump, aireplay, ...)</li>
+                            </ul>
+                        <li>Service fingerprinting</li>
+                        <li>Automated &AMP; manual vuln assessment</li>
+                        <li>msf6, nikto, zaproxy, burpsuite</li>
+                        <li>Security vuln. exploitation &AMP; frameworks</li>
+                    </ul>
+                <li>WebApp Security</li>
+                    <ul>
+                        <li>XSS, SSRF/CSSRF, SQL Injection, abusing poor input sanitizers</li>
+                        <li>Hobbyist Bug-Bounty Hunting (hackerone)</li>
+                    </ul>
+                <li>Virt. Private Networking (OpenVPN, ...)</li>
+                <li>Http &AMP; SOCKS proxies</li>
             </ul>
 
-            <h2>Programming (misc.)</h2>
+            <h2>Other</h2>
             <ul>
                 <li><b>O</b>bject-<b>O</b>riented <b>P</b>rogramming paradigms</li>
-                <li>x86, x64 Assembly Lang. (AT&T, Intel dialects), some 6502 Assembly</li>
+                <li>Foundational Algorithmic Formulas (e.g. sorting algos)</li>
+                <li>Binary Analysis</li>
+                    <ul>
+                        <li>ELF &AMP; PE binary formats</li>
+                        <li>Static &AMP; Dynamic Analysis</li>
+                        <li>Assembly lang (x86, x64, some 6502, some ARM)</li>
+                        <li>Static/dyn. tools - dtrace, strace, objdump, strings, hexdump</li>
+                        <li>Debuggers, disassemblers (gdb, radare2, GUIs)</li>
+                    </ul>
+                <li>Binary exploitation (buffer overflow, code injection)</li>
             </ul>
 
             <h2>Cryptography</h2>
             <ul>
                 <li>Symmetric &AMP; Asymmetric (Public Key Crypto)</li>
                 <li>Hashing Algorithms</li>
-                <li><strong>G</strong>nu <strong>P</strong>rivacy <strong>G</strong>uard &AMP; <strong>P</strong>retty <strong>G</strong>ood <strong>P</strong>rivacy
+                <li><b>G</b>nu <b>P</b>rivacy <b>G</b>uard &AMP; <b>P</b>retty <b>G</b>ood <b>P</b>rivacy
                 <li>OpenSSL - CLI Toolkit, x509 Certificates, SSL/TLSv1</li>
             </ul>
 
