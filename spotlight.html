@@ -11,11 +11,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
     <body>
-        <a href="index.html">Return Home</a>
+        <p>
+            <em>In lieu of an actual banner &AMP; navigation, here's a link home:</em><br>
+            <a href="index.html">Return Home</a>
+        </p>
+        
         <div class="boxpost">
             <article>
                 <h2>Python 3 - lookup</h2>
-                <img src="img/ss_lookupdemo1.png" alt="lookup screenshot" width="100%" height="100%" />
+                <img src="img/ss_lookup_01.png" alt="lookup screenshot" style="max-width:100%; height:auto" />
                 <p>
                     I get a ton of use out of this. When I first started learning about web scraping using
                     BeautifulSoup4 (Python3), I immediately thought of scraping Google for the definitions
@@ -43,21 +47,60 @@
         <div class="boxpost">
             <article>
                 <h2>mytime3</h2>
-                <img src="img/ss_mytime3.png" alt="mytime3 screenshot" width="100%" height="100%" />
+                <img src="img/ss_mytime3_01.png" alt="mytime3 screenshot" style="margin-left:15%;max-width:100%;height:auto" />
                 <p>
                     A digital clock GUI leveraging the time module &AMP; pygame. Pygame's not just for
                     games. I'm glad I mentioned that I used pygame; not like the module prints any
                     gratuitous self-inserts or anything... Yeah, hello to you too, pygame community.
+                    It's actually a minor grievance; pygame is a nice module, but I also have to
+                    acknowledge that it's more of a wrapper for SDL2, which is implemented natively in
+                    the C language. The thing that hurts me a bit here, is that I've actually produced
+                    a couple interactive demos using it. That being said, this is why I don't really
+                    want to hate on pygame so much -- it's really just meant for demos or Proof-Of-Concept
+                    projects. The Python language itself is a poor choice for serious game development.
+                    I love Python, but I love it for its productivity, speed, and portability. It's not
+                    totally infeasible to use Python and/or pygame for a game or similarly large, intensive
+                    applications and it does happen, but I personally disagree with this practice. It would
+                    very much behoove any developer to use pygame as a PoC platform and move on to C for
+                    its native SDL2 support as well as its intrinsic benefits.
                 </p>
                 <footer style="font-style:italic">
-                    Kidding! Thanks for everything, pygame devs; nice SDL2 wrapper.<br>
-                    (Crap. I did it again; didn't I?)<br>
+                    Kidding! Thanks for everything, pygame devs.<br>
                     Find it in the <a href="https://www.github.com/brianc2788/pydev">pydev</a> repository.
                 </footer>
             </article>
         </div>
 
-        <!-- NEXT ARTICLE START
+        <hr>
+
+        <div class="boxpost">
+            <article>
+            <h2>calendar-cli</h2>
+            <img src="img/ss_clical_01.png" alt="Screenshot of cli-cal; written in C&#43;&#43;." style="max-with:50%; height:auto; margin-bottom:12%" />
+            <img src="img/ss_clical_03.png" alt="Cli-cal showing a leap year." style="max-width:50%; height:auto" />
+            <p>
+                This C&#43;&#43; program was originally created to satisfy the final project
+                that was assigned to my CS121 class, at the end of my first two semesters at my
+                local community college. The class was given two formulas; the first would calculate
+                whether or not a given date was a leap-year. The second formula calculated the day
+                of the week of the first day occurred on; also for a given month and year. We were
+                being graded on our ability to visually represent these calendars in the console,
+                which relied on things like loops and formatting.
+            </p>
+            <p>
+                Heheh - Embarrassingly enough, there are still a couple bugs in it that can ruin
+                the experience. It actually does exactly as advertised for most dates you can give
+                to it. However, as an example, the entire year of 2022 mis-aligns the first week
+                of any given month; printing it too far to the right of the screen and alienating
+                itself.
+            </p>
+                <footer style="font-style:italic">
+                    Check it out in my <a href="https://www.github.com/brianc2788/pydev">pydev</a> repository on Github.
+                </footer>
+            </article>
+        </div>
+
+        <!-- NEXT ARTICLE START (TEMPLATE)
         <hr>
 
         <div class="boxpost">
