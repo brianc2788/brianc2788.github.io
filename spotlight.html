@@ -14,8 +14,30 @@
         <h1>Spotlight</h1>
         <p>Showcasing a few of my creations.</p>
         <a href="index.html">Return Home</a>
-        
+
         <div class="boxpost">
+            <article>
+                <h2>mytime3</h2>
+                <img src="img/ss_mytime3_01.png" alt="mytime3 screenshot" style="margin-left:15%;max-width:100%;height:auto" />
+                <p>
+                    A digital clock GUI leveraging the time module &AMP; pygame. What's great about
+                    pygame is that it uses SDL2; a development library native to the C language. SDL2
+                    is open-source software that allows developers to create windows and graphical
+                    applications for all major operating systems (desktop &AMP; mobile). Without much
+                    effort, I was able to use pygame to create this Python application that I was able
+                    to test on Linux &AMP; Windows 10. Pygame provides an excellent entry point for
+                    beginners looking to get into GUI or game creation.
+                </p>
+                <footer style="font-style:italic">
+                    Thanks for everything, pygame devs.<br>
+                    Find my clock GUI here: <a href="https://www.github.com/brianc2788/pydev">pydev</a>
+                </footer>
+            </article>
+        </div>
+
+        <hr>
+
+                <div class="boxpost">
             <article>
                 <h2>Python 3 - lookup</h2>
                 <img src="img/ss_lookup_01.png" alt="lookup screenshot" style="max-width:100%; height:auto" />
@@ -40,56 +62,15 @@
 
         <div class="boxpost">
             <article>
-                <h2>mytime3</h2>
-                <img src="img/ss_mytime3_01.png" alt="mytime3 screenshot" style="margin-left:15%;max-width:100%;height:auto" />
-                <p>
-                    A digital clock GUI leveraging the time module &AMP; pygame.
-                    I'm glad I mentioned that I used pygame; not like the module prints any
-                    gratuitous self-inserts or anything... Yeah, hello to you too, pygame community.
-                    It's actually a minor grievance; pygame is an excellent tool and fulfills its
-                    goals of delivering a simple &AMP; easy-to-use graphical module optimized for
-                    Python. Pygame uses SDL2, which supports C natively, so I'm sure the pygame devs
-                    squeezed as much efficiency and optimizations out as they could. There's a lot of
-                    trade-offs, as there generally are when choosing between interpreted languages and
-                    compiled ones. As someone who learned C/C&#43;&#43; and wrote a couple 2-D game
-                    demos with SDL2 and its image &AMP; true-type font extensions, I almost find it
-                    sacrilegious to embed them beneath another programming language (LOL). I've
-                    personally always thought of Python as a productivity-oriented language, and for
-                    that, modules like pygame will always have their place in the programming universe.
-                </p>
-                <footer style="font-style:italic">
-                    Thanks for everything, pygame devs.<br>
-                    Find my clock GUI here: <a href="https://www.github.com/brianc2788/pydev">pydev</a>
-                </footer>
-            </article>
-        </div>
-
-        <hr>
-
-        <div class="boxpost">
-            <article>
             <h2>calendar-cli</h2>
             <img src="img/ss_clical_01.png" alt="Screenshot of cli-cal; written in C&#43;&#43;." style="max-with:50%; height:auto; margin-bottom:12%" />
             <img src="img/ss_clical_03.png" alt="Cli-cal showing a leap year." style="max-width:50%; height:auto" />
             <p>
-                This C&#43;&#43; program was originally created to satisfy the final project
-                that was assigned to my CS121 class, at the end of my first two semesters at my
-                local community college. The class was given two formulas; the first would calculate
-                whether or not a given date was a leap-year. The second formula calculated the day
-                of the week of the first day occurred on; also for a given month and year. We were
-                being graded on our ability to visually represent these calendars in the console,
-                which relied on things like loops and formatting.
-            </p>
-            <p>
-                Heheh - Embarrassingly enough, there are still a couple bugs in it that can ruin
-                the experience. It actually does exactly as advertised for most dates you can give
-                to it. However, as an example, the entire year of 2022 mis-aligns the first week
-                of any given month; printing it too far to the right of the screen and alienating
-                itself. Every time I think about debugging these issues, I start wanting to rewrite
-                the code completely using object-oriented paradigms. Then I think it would be a good
-                idea to also write it in Python or Go. Then I get overwhelmed and move on to something
-                else.
-            </p>
+                Using some well-known math formulas, this console app generates an accurate
+                representation of any given month and print it to the screen. I wrote this quite
+                a few years ago when I still favored prompting the user for input over command
+                line arguments. It wasn't until a bit later that I discovered the linux shell and
+                never looked back. 
                 <footer style="font-style:italic">
                     Lol - Check it out in my <a href="https://www.github.com/brianc2788/pydev">pydev</a> repository on Github.
                 </footer>
