@@ -10,22 +10,33 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
+    <hr>
+    <p id="xml1"></p>
+    <script src="preprod/xml_gethdrs.js"></script>
+    <hr>
     <!-- Temp Placeholder -->
     <h1>AD NOCTUM</h1>
     <p style="font-style:italic">
         INTO DARKNESS
     </p>
-
-        <hr>
+    <p id="target01">Your IPv4 Address: </p>
+    <script>
+        let xhr = new XMLHttpRequest()
+        let method = "GET"
+        let url = "ip4.me/api"
+        xhr.open(method, url)
+        document.getElementById("target01").innerText = 
+    </script>
+    <hr>
     <footer>
     <div class="copyleft">
         &COPY; Copyleft 2022 - Some rights reserved
         <br>
         <a href="LICENSE">Apache 2.0 Open Source License</a>
         <br>
-        <img alt="logo" src="imgs/custom404-invert.jpg" width="15em" style="padding-top:5px">
+        <img alt="logo" src="img/custom404-invert.webp" width="15em" style="padding-top:5px">
         WEBMASTER - <a href="mailto:brianc2788@gmail.com">brianc2788@gmail.com</a>
-        <img alt="logo" src="imgs/custom404-invert.jpg" width="15em" style="padding-top:5px">
+        <img alt="logo" src="img/custom404-invert.webp" width="15em" style="padding-top:5px">
     </div>
     </footer>
     <hr>
