@@ -17,8 +17,10 @@ body {
 	color: #A0FFA0; /* lightgreen */
 	background-color: #000000; /* black */
 	
+	/* Use col classes below.
 	margin-left: 30vw;
 	margin-right: 30vw;
+	*/
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -65,10 +67,16 @@ th, td {
 	border: solid;
 	border-width: 1px;
 	padding: 10px;
+
+	max-width: 32%;
+	position: relative;
+	float: left;
 }
 
 /* Copyright Footer */
 .copyleft {
+	position: relative;
+	float: bottom;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 10px;
 	font-style: italic;
