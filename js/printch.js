@@ -1,4 +1,5 @@
-// print 
+// print ascii value table (decimal).
+// this is a test; no functions, best practices, etc.
 
 console.log("-- NUMBER CHARS (48-57, 0x30-0x39) --")
 // numerals (ascii value range)
