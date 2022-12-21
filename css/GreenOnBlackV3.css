@@ -1,0 +1,170 @@
+/*******************************************************************************
+[+] GreenOnBlack - Version 3 - Cascading Style-Sheet [+]
+* Inspired by text-based consoles with neon flair.
+* Supports desktop resolutions & orientations only.
+* https://brianc2788.github.io/
+*******************************************************************************/
+
+/* Universal Rulesets */
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    color: #90ff90;
+    background-color: black;
+    /*
+    background-image: url("../img/custom404-invert.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50em;
+    */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    caption-side: bottom;
+}
+
+a:hover {
+    color: black;
+    background-color: #90ff90;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    margin: 2px auto 2px auto;
+
+     border: ridge #90ff90 2px;
+    /* box-shadow: 10px 5px 10px #90ff90; */
+
+    color: black;
+    background-color: black;
+    text-shadow: #90ff90 2px 2px;
+}
+
+hr {
+    height: 20px;
+    
+    background-color: #90ff90;
+}
+
+/* SITE HEADER */
+.site-header {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 10px auto;
+
+    border: ridge blueviolet 5px;
+    background-color: black;
+    box-shadow: 10px 5px 10px #90ff90;
+}
+
+/* REPOSITORY TABLE */
+.repo-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("../img/custom404-invert.webp");
+    
+
+    color: black;
+}
+.repo-container table {
+    background-color: #90ff90;
+    box-shadow: inset -5px 5px hotpink;
+    width: 66rem;
+    margin: auto;
+    justify-content: center;
+}
+.repo-container th {
+    text-align: center;
+    border: solid black 1px;
+}
+.repo-container td {
+    text-align: left;
+    border: solid black 1px;
+}
+
+.repo-container p {
+    text-align: left;
+    font-size: 10px;
+    margin: 0px auto 0px auto;
+}
+
+.repo-container a:link {
+    color: #90ff90;
+    background-color: black;
+}
+.repo-container a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.repo-container caption {
+    border: solid #90ff90 1px;
+    background-color: black;
+    color: #90ff90;
+}
+
+/* NAVIGATION - HORIZONTAL BAR */
+.h_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+
+    background-color: #90ff90;
+}
+
+.h_nav_button {
+    width: calc(100em / 4); /* Divide by # of elems/buttons. */
+    border: solid black 1px;
+    text-align:center;
+
+    color: black;
+    background-color: #90ff90;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    margin: 2px auto 2px auto;
+    width: 66rem;
+    text-align: left;
+
+    background-color: black;
+    border: solid #90ff90 1px;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* COPYRIGHT FOOTER */
+.copyright_footer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto 10px auto;
+
+    background-color: black;
+
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+.copyright_footer img {
+    width: 50px;
+    height: 35px;
+
+    border: solid hotpink 3px;
+}
