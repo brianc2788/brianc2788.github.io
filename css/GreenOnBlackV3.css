@@ -46,9 +46,16 @@ h1,h2,h3,h4,h5,h6 {
     text-shadow: #90ff90 2px 2px;
 }
 
+p.warning_banner {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+}
+
 hr {
     height: 20px;
-    
     background-color: #90ff90;
 }
 
