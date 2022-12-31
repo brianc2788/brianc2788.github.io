@@ -47,7 +47,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p.warning_banner {
-    text-align: center;
     font-style: italic;
     font-weight: 900;
     color: white;
@@ -57,6 +56,10 @@ p.warning_banner {
 hr {
     height: 20px;
     background-color: #90ff90;
+}
+
+ul, li {
+    margin-left: 10px
 }
 
 /* SITE HEADER */
