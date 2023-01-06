@@ -62,6 +62,10 @@ ul, li {
     margin-left: 10px
 }
 
+footer {
+    font-style: italic;
+}
+
 /* SITE HEADER */
 .site-header {
     font-size: 1.5rem;
@@ -84,7 +88,6 @@ ul, li {
 
     background-image: url("../img/custom404-invert.webp");
     
-
     color: black;
 }
 .repo-container table {
