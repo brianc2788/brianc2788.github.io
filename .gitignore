@@ -1,4 +1,5 @@
 preprod/
+unused/
 *.pyc
 *.notrack
 *.notrack.*
