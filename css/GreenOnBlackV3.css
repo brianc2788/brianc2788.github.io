@@ -14,6 +14,9 @@
 body {
     display: flex;
     flex-direction: column;
+    /* Defaults to "visible."
+    overflow: hidden;
+    */
 
     color: #90ff90;
     background-color: black;
