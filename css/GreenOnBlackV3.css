@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     margin: 2px auto 2px auto;
 
-     border: ridge #90ff90 2px;
+    border: ridge #90ff90 2px;
     /* box-shadow: 10px 5px 10px #90ff90; */
 
     color: hotpink;
