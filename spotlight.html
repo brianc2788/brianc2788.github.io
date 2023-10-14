@@ -12,120 +12,99 @@
 </head>
 <body>
     <div style="width: 65%; margin: auto">
-    <h1>Spotlight</h1>
-    <p>
-        Showcasing some stuff.
-    </p>
-    <a href="index.html">Return Home</a>
+        <h1>Spotlight</h1>
+        <p align="center">
+            <em>Showcasing some stuff.</em><br>
+            <a href="index.html">Return Home</a>
+        </p>
 
-    <div class="boxpost">
-        <article>
-            <h2>portDialer - concurrent port scanner (golang)</h2>
-            <img src="img/ss_portDialer_03.webp" alt="portDialer screenshot" style="max-width:49%; height:auto" />
-            <img src="img/ss_portDialer_01.webp" alt="portDialer screenshot" style="max-width:49%; height:auto" />
-            <p>
-                Fun, fast port scanner written in golang. Not super robust since I'm still using golang's
-                standard &dquote;net&dquote; library, but it's actually decent enough for maybe some
-                preliminary service scanning. Script kiddies beware; this scanner <em>will</em> complete
-                the TCP 3-way handshake to determine if a port is listening or not. It also does <em>not</em>
-                work with SOCKS proxies, but will work with HTTP proxies (tested with TOR &AMP; several,
-                low-quality HTTP proxy servers).
-            </p>
-            <footer style="font-style:italic">
-                Check back for updates; I think I'll actually be putting some love into this project.
-                Repo link: <a href="https://github.com/brianc2788/godev/">godev</a>
-            </footer>
-        </article>
-    </div>
+        <div class="boxpost">
+            <article>
+                <h2>portDialer - concurrent port scanner (golang)</h2>
+                <img src="img/ss_portDialer_03.webp" alt="portDialer screenshot" style="max-width:49%; height:auto" />
+                <img src="img/ss_portDialer_01.webp" alt="portDialer screenshot" style="max-width:49%; height:auto" />
+                <p>
+                    Ultra bare-bones concurrent port scanner written in golang. Script kiddies beware; this scanner
+                    <em>will</em> complete the TCP 3-way handshake to determine if a port is open or not.
+                </p>
+                <footer style="font-style:italic">
+                    Go repository: <a href="https://github.com/brianc2788/godev/">godev</a>
+                </footer>
+            </article>
+        </div>
 
-    <hr>
+        <hr>
 
-    <div class="boxpost">
-        <article>
-            <h2>mytime3</h2>
-            <img src="img/ss_mytime3_01.webp" alt="mytime3 screenshot" style="margin-left:25%; max-width:100%;height:auto" />
-            <p>
-                A digital clock GUI leveraging the time module &AMP; pygame. What's great about
-                pygame is that it uses SDL2; a development library native to the C language. SDL2
-                is open-source software that allows developers to create windows and graphical
-                applications for all major operating systems (desktop &AMP; mobile). Without much
-                effort, I was able to use pygame to create this Python application that I was able
-                to test on Linux &AMP; Windows 10. Pygame provides an excellent entry point for
-                beginners looking to get into GUI or game creation. I'd also like to mention the
-                very-cool, open <em>Pixeltype</em> font.
-            </p>
-            <footer style="font-style:italic">
-                Thanks for everything, pygame devs.<br>
-                Find my clock GUI here: <a href="https://www.github.com/brianc2788/pydev">pydev</a>
-            </footer>
-        </article>
-    </div>
+        <div class="boxpost">
+            <article>
+                <h2>mytime3</h2>
+                <img src="img/ss_mytime3_01.webp" alt="mytime3 screenshot" style="margin-left:25%; max-width:100%;height:auto" />
+                <p>
+                    A digital clock GUI leveraging the time module &AMP; pygame. What's great about
+                    pygame is that it uses SDL2; a development library native to the C language. SDL2
+                    is open-source software that allows developers to create windows and graphical
+                    applications for all major operating systems (desktop &AMP; mobile). Without much
+                    effort, I was able to use pygame to create this Python application that I was able
+                    to test on Linux &AMP; Windows 10. Pygame provides an excellent entry point for
+                    beginners looking to get into GUI or game creation. I'd also like to mention the
+                    very-cool, free and open <em>Pixeltype</em> font.
+                </p>
+                <footer style="font-style:italic">
+                    Thanks for everything, pygame devs.
+                    <br>
+                    Python repository: <a href="https://www.github.com/brianc2788/pydev">pydev</a>
+                </footer>
+            </article>
+        </div>
 
-    <hr>
+        <hr>
 
-    <div class="boxpost">
-        <article>
-            <h2>Python 3 - lookup</h2>
-            <img src="img/ss_lookup_01.webp" alt="lookup screenshot" style="max-width:100%; height:auto" />
-            <p>
-                I get so much use out of this script, it isn't even funny! For so long, I had
-                gotten used to just typing "define (word here)" in google to look up definitions
-                for words. As a matter of fact, originally, I was planning to scrape those exact
-                definitions from google's website, but ended up going with Merriam-Webster's
-                online offering. The script itself isn't all that impressive and I am always
-                coming back to it. However, it wasn't really written with much extensibility
-                in mind. Rather than improving it, I find myself wanting to do it even better
-                justice by rewriting it from scratch either with Python or another language.
-            </p>
-            <footer style="font-style:italic">
-                Feel free to check out the code and thanks for checking it out.<br>
-                Python repository: <a href="http://www.github.com/brianc2788/pydev">pydev</a>
-            </footer>
-        </article>
-    </div>
+        <div class="boxpost">
+            <article>
+                <h2>Python 3 - lookup</h2>
+                <img src="img/ss_lookup_01.webp" alt="lookup screenshot" style="max-width:100%; height:auto" />
+                <p>
+                    Using beautifulsoup4 and requests to scrape definitions from Merriam-Webster's web app.
+                </p>
+                <footer style="font-style:italic">
+                    Python repository: <a href="http://www.github.com/brianc2788/pydev">pydev</a>
+                </footer>
+            </article>
+        </div>
 
-    <hr>
+        <hr>
 
-    <div class="boxpost">
-        <article>
-            <h2>Airsnipe-ip</h2>
-            <img src="img/ss_airsnipe-ip_01.webp" alt="airsnipe-ip screenshot" style="max-width:100%; height:auto" />
-            <p>
-                Kinda my own, crappy, script-kiddie wrapper around aireplay-ng; a member of the aircrack-ng
-                suite. I'm talking about stuff like <em>airmageddon</em> &AMP; <em>wifite</em> (complete with
-                tacky termcolor output and interactive user-input). Honestly, how do you look yourself in the
-                mirror if you can't put your nic in promiscuous or monitor mode without a wrapper around a
-                shell script? Ha, j0kez. Not even sure why I posted this -- maybe just to show how easy it is?
-            </p>
-            <footer>
-                Ew, lol - <a href="https://www.github.com/brianc2788/bash">bash</a> repository
-            </footer>
-        </article>
-    </div>
+        <div class="boxpost">
+            <article>
+                <h2>Airsnipe-ip</h2>
+                <img src="img/ss_airsnipe-ip_01.webp" alt="airsnipe-ip screenshot" style="max-width:100%; height:auto" />
+                <p>
+                    Kinda my own, crappy, script-kiddie wrapper around aireplay-ng; a member of the aircrack-ng
+                    suite. Comes complete with tacky termcolor output.
+                </p>
+                <footer>
+                    Bash scripts: <a href="https://www.github.com/brianc2788/bash">bash</a> repository
+                </footer>
+            </article>
+        </div>
 
-    <hr>
+        <hr>
 
-    <div class="boxpost">
-        <article>
-            <h2>Calendar-cli</h2>
-            <img src="img/ss_clical_01.webp" alt="Screenshot of cli-cal; written in C&#43;&#43;." style="max-width:50%; height:auto; margin-bottom:12%" />
-            <img src="img/ss_clical_03.webp" alt="Cli-cal showing a leap year." style="max-width:50%; height:auto" />
-            <p>
-                Using some well-known math formulas, this console app generates an accurate
-                representation of any given month and print it to the screen. I wrote this quite
-                a few years ago when I still favored prompting the user for input over command
-                line arguments. It wasn't until a bit later that I discovered <em>bash</em> and
-                never looked back. The user enters the month and year of their choice and the app
-                prints an accurate, visual representation of that month. It also indicates if that
-                year is a leap year. Kind of boring, honestly -- Lol.
-            </p>
-            <footer style="font-style:italic">
-                Check it out in my <a href="https://www.github.com/brianc2788/cppdev">cppdev</a> repository on Github.<br>
-                This repository is also clonable, contains a dynamically linked, 64-bit ELF binary,
-                and a makefile in addition to source code.
-            </footer>
-        </article>
-    </div>
+        <div class="boxpost">
+            <article>
+                <h2>Calendar-cli</h2>
+                <img src="img/ss_clical_01.webp" alt="Screenshot of cli-cal; written in C&#43;&#43;." style="max-width:50%; height:auto; margin-bottom:12%" />
+                <img src="img/ss_clical_03.webp" alt="Cli-cal showing a leap year." style="max-width:50%; height:auto" />
+                <p>
+                    Using some well-known math formulas, this console app generates an accurate
+                    representation of any given calendar month and indicates whether or not it
+                    occurred during a leap year.
+                </p>
+                <footer style="font-style:italic">
+                    Cpp repository: <a href="https://www.github.com/brianc2788/cppdev">cppdev</a>
+                </footer>
+            </article>
+        </div>
 
     <!-- ARTICLE TEMPLATE --
     <div class="boxpost">
@@ -138,20 +117,19 @@
         </article>
     </div>
     -- ARTICLE TEMPLATE END -->
-    
-    <!-- COPYLEFT INFO -->
-    <hr>
-    <footer>
-    <div class="copyleft">
-        <p>
-            &COPY; Copyleft 2022 - Some rights reserved<br>
-            <a href="LICENSE">Apache 2.0 Open Source License</a><br>
-            <img alt="logo" src="img/custom404-invert.webp" width="15em" style="padding-top:5px">
-            WEBMASTER - <a href="mailto:brianc2788@gmail.com">brianc2788@gmail.com</a>
-            <img alt="logo" src="img/custom404-invert.webp" width="15em" style="padding-top:5px">
-        </p>
     </div>
-    </footer>
+
+    <hr>
+    <div class="copyright_footer">
+        <img src="img/custom404-invert.webp" alt="sig img">
+        <div style="display:flex;flex-direction:column;">
+        <p>
+            &COPY; Copyright 2022, 2023 - All rights reserved.
+            <br>CONTACT<a href="mailto:brianc2788@gmail.com?subject=&DQUOTE;web%20Support&DQUOTE;">brianc2788@gmail.com</a>
+            <br><a href="LICENSE">Apache Open-Source License 2.0</a>
+        </p>
+        </div>
+        <img src="img/custom404-invert.webp" alt="sig img">
     </div>
 </body>
 </html>
